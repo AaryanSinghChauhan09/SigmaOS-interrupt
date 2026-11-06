@@ -19,3 +19,7 @@ pub use controller::{
 pub use handler::{
     InterruptHandler, InterruptNumber, InterruptResult, RegisterSet, SimpleInterruptHandler,
 };
+
+pub mod halves;
+
+pub use halves::{BottomHalfFn, IrqEvent, IrqHalvesError, IrqLine, IrqManager};
