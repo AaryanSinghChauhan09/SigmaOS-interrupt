@@ -3,12 +3,12 @@ name = "SigmaOS-interrupt"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "interrupt component"
+description = "SigmaOS interrupt handling and IRQ management"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
